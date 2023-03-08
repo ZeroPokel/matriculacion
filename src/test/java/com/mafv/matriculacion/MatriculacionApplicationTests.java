@@ -29,18 +29,21 @@ class MatriculacionApplicationTests {
 
 		Alumno u1 = new Alumno();
 		u1.setCodigo(1);
+		u1.setNombre("Carlos");
 		u1.setEmail("email@gmail.com");
 		u1.setFecha(fecha);
 		u1.setTelefono("666777888");
 
         Alumno u2 = new Alumno();
 		u2.setCodigo(2);
+		u2.setNombre("Juan");
 		u2.setEmail("email2@gmail.com");
 		u2.setFecha(fecha);
 		u2.setTelefono("777888999");
 
         Alumno u3 = new Alumno();
 		u3.setCodigo(3);
+		u3.setNombre("Pepe");
 		u3.setEmail("email3@gmail.com");
 		u3.setFecha(fecha);
 		u3.setTelefono("333444555");

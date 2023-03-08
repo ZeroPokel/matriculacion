@@ -22,7 +22,7 @@ public class Alumno {
     private String email;
     private String telefono;
 
-    private Date fecha;
+    private Date fechaNacimiento;
 
     @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(name = "alumno_asignaturas", joinColumns = @JoinColumn(name = "Alumno_codigo"), inverseJoinColumns = @JoinColumn(name = "Asignatura_codigo"))
@@ -99,11 +99,11 @@ public class Alumno {
     }
 
     public Date getFecha() {
-        return fecha;
+        return fechaNacimiento;
     }
 
     public void setFecha(Date fecha) {
-        this.fecha = fecha;
+        this.fechaNacimiento = fecha;
     }
 
 }
